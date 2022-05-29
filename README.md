@@ -41,7 +41,7 @@ One step installation with npm i @appbaseio/reactivesearch,
 A UMD build that works directly in the browser. Installation steps here,
 Styled and scoped components that can be easily extended,
 See the reactivesearch starter app.
-🆕 ReactiveSearch API: Secure your ElasticSearch Queries
+ReactiveSearch API: Secure your ElasticSearch Queries
 Based on a popular request, we have implemented support for a declarative API based on ReactiveSearch. The API is called ReactiveSearch API. It moves the query DSL generation logic to a backend system (an appbase.io service) instead of exposing it directly on the client-side. By strictly enabling only ReactiveSearch API use, you can also prevent script injections.
 
 The main advantages of using it over the ElasticSearch Query DSL are:
